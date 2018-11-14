@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  color: #444;
+  text-align: center;
+  line-height: 1.5;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  text-align: left;
+    background-color: #fff;
+}
+
+nav h3 {
+  padding-left: 10px;
+}
+
+.projectContent {
+  float: right;
+}
+
+
+li {
+  list-style: none;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+
+ul {
+  display: flex;
+
+}
+
+nav h3 {
+    padding-left: 10px;
+    padding-right:  10px;
+
+}
+
+section img {
+  width: 400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+}
+
+header {
+  padding: 12% 0;
+}
+
+section {
+  min-height: 200px;
+  padding: 2% 0;
+
+}
+
+section:nth-child(even) {
+
+}
+
+.centerNav {
+    margin-left: auto;
+  margin-right: auto;
+      position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  padding-left: 34%;
+    background-color: #fff;
+  display: flex;
+  text-align: center;
+}
+
+.home {
+  text-align: left;
+}
+
+.tech {
+  text-align: left;
+}
+
+.project {
+  text-align: left;
+  display: flex;
+  padding-bottom: 40px;
+
+}
+
+.section-heading {
+  text-align: left
+}
+
+.project-desc {
+  font-size: 14px;
+}
+
+.techStack {
+  font-size: 14px;
+}
