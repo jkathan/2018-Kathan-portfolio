@@ -5,13 +5,14 @@
 body {
   font-family: 'Noto Sans', sans-serif;
   font-size: 20px;
-  color: #444;
   text-align: center;
   line-height: 1.5;
-  width: 70%;
+  width: 80%;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 200px;
+  padding-top: 150px;
+  color: #383838;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -29,11 +30,13 @@ nav {
   margin-right: auto;
   display: flex;
   text-align: left;
-    background-color: #fff;
+  background-color: #fff;
+
 }
 
 nav h3 {
   padding-left: 10px;
+    color: #383838;
 }
 
 .projectContent {
@@ -61,9 +64,10 @@ nav h3 {
 
 section img {
   width: 400px;
+  height: auto;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 40px;
+
 }
 
 header {
@@ -91,11 +95,12 @@ section:nth-child(even) {
   padding-left: 34%;
     background-color: #fff;
   display: flex;
-  text-align: center;
-}
+  text-align: center
+;}
 
 .home {
   text-align: left;
+  padding-bottom: 100px;
 }
 
 .tech {
@@ -105,8 +110,6 @@ section:nth-child(even) {
 .project {
   text-align: left;
   display: flex;
-  padding-bottom: 40px;
-
 }
 
 .section-heading {
@@ -114,9 +117,123 @@ section:nth-child(even) {
 }
 
 .project-desc {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .techStack {
   font-size: 14px;
 }
+
+#contact{
+  text-align: left;
+}
+
+.strong {
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+h2 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.banner {
+  font-size: 30px;
+  color: black;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+.contactImages {
+  width: 40px;
+  height: auto;
+
+}
+
+#contact ul {
+  padding-left: 10px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+#contact li {
+  padding-left: 30px;
+  padding-right: ;
+}
+
+.button2 {
+background-color: #555555;
+color: white;
+    border: 2px black;
+    padding: 15px 32px;
+    text-align: center;
+    cursor: pointer;
+    width: 180px;
+} 
+
+.button2:hover {
+  background-color: #ffff;
+  border: 2px solid #555555;
+  color: black;
+      padding: 13px 32px;
+}
+
+.button1 {
+background-color: #ffff;
+color: black;
+    border: 2px solid #555555;
+    padding: 13px 32px;
+    text-align: center;
+    cursor: pointer;
+    width: 180px;
+    margin-right: 10px;
+} 
+
+.button1:hover {
+  background-color: #555555;
+  
+  color: white;
+}
+
+.links {
+  padding-top: 12px;
+}
+
+@media only screen and (max-width: 650px) {
+
+.project {
+  text-align: left;
+  display: inline;
+  padding-top: 50px;
+  margin-top: 30px;
+}
+
+.webPhoto {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.projectList {
+  padding-bottom: 10px;
+}
+
+.centerNav {
+    margin-left: auto;
+  margin-right: auto;
+      position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  padding-left: 10%;
+    background-color: #fff;
+  display: flex;
+  text-align: center
+;}
+
+.links {
+  padding-top: 12px;
+  padding-bottom: 20px;
+}
+  }

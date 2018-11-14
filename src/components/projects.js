@@ -5,7 +5,7 @@ export default function Projects(){
 	return (
 		<div id='projectList'>
 			<div>
-				<h2 className='section-heading' id='projects'>PROJECTS</h2>
+				<h2 className='section-heading' id='projects'>Projects</h2>
 				<hr />
 				<ProjectItem 
 					title={'Borrowd'}
@@ -16,6 +16,7 @@ export default function Projects(){
 					repo={'hhttps://github.com/jkathan/borrowd'}
 					deployed={'https://mighty-tundra-94742.herokuapp.com/'} 
 				/>
+								<hr />
 				<ProjectItem
 					title={'BooKeep'}
 					img={'https://i.imgur.com/IRpghDV.png'} 
@@ -25,6 +26,7 @@ export default function Projects(){
 					repo={'https://github.com/jkathan/BooKeep'}
 					deployed={'https://infinite-river-85875.herokuapp.com/'} 
 				/>
+				<hr />
 				<ProjectItem 
 					title={'Open Source Photos'}
 					img={'https://i.imgur.com/Ilju9us.png'} 

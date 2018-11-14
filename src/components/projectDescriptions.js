@@ -7,7 +7,12 @@ export default function ProjectItem(props){
 				<img src={props.img} alt={props.alt}/>
 			</div>
 			<div className='projectContent'>
-				<div className='project-desc'><h3 className='strong'>{props.title}:</h3> {props.description}</div>
+				<div>
+					<h3 className='strong'>{props.title}</h3> 
+					<div className='project-desc'>
+						{props.description}
+					</div>
+				</div>
 				<div>
 				<h4 className='strong'>Tech stack:</h4> 
 				<div className='techStack'>
@@ -15,8 +20,8 @@ export default function ProjectItem(props){
 				</div>
 				</div>
 				<div className='links'>
-					<a href={props.repo}><button>Github repo</button></a>  
-					<a href={props.deployed}><button>Live app</button></a>
+					<a href={props.repo}><button className="button1">Github repo</button></a>  
+					<a href={props.deployed}><button className="button2">Live app</button></a>
 				</div>
 			</div>
 		</div>
