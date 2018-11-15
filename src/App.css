@@ -112,7 +112,7 @@ section:nth-child(even) {
   display: flex;
 }
 
-.section-heading {
+.heading {
   text-align: left
 }
 
@@ -128,7 +128,7 @@ section:nth-child(even) {
   text-align: left;
 }
 
-.strong {
+.bold {
   margin-bottom: 5px;
   margin-top: 0px;
 }
