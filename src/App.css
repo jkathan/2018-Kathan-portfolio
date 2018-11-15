@@ -35,7 +35,7 @@ nav {
 }
 
 nav h3 {
-  padding-left: 10px;
+
     color: #383838;
 }
 
@@ -57,8 +57,8 @@ ul {
 }
 
 nav h3 {
-    padding-left: 10px;
-    padding-right:  10px;
+
+    padding-right:  20px;
 
 }
 
@@ -92,7 +92,7 @@ section:nth-child(even) {
   left: 0;
   right: 0;
   z-index: 10;
-  padding-left: 34%;
+  width: 80%;
     background-color: #fff;
   display: flex;
   text-align: center
@@ -124,7 +124,7 @@ section:nth-child(even) {
   font-size: 14px;
 }
 
-#contact{
+.contact{
   text-align: left;
 }
 
@@ -150,13 +150,13 @@ h2 {
 
 }
 
-#contact ul {
+.contact ul {
   padding-left: 10px;
   padding-bottom: 30px;
   padding-top: 30px;
 }
 
-#contact li {
+.contact li {
   padding-left: 30px;
   padding-right: ;
 }
@@ -208,10 +208,13 @@ color: black;
   margin-top: 30px;
 }
 
-.webPhoto {
+section img {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%
 }
 
 .projectList {
@@ -226,14 +229,77 @@ color: black;
   left: 0;
   right: 0;
   z-index: 10;
-  padding-left: 10%;
+  width: 88%;
     background-color: #fff;
   display: flex;
-  text-align: center
+  text-align: center;
+  font-size: 14px;
 ;}
 
 .links {
   padding-top: 12px;
   padding-bottom: 20px;
+  text-align: center;
 }
+
+.button1 {
+  margin-bottom: 5px;
+      margin-right: 0px;
   }
+
+.home {
+  padding-bottom: 0;
+}
+
+.banner {
+  padding-bottom: 120px;
+}
+
+.contactImages {
+  width: 50px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+    padding-bottom: 15px;
+}
+ul {
+  display: inline-block;
+    padding-left: 0;
+  padding-right: 0;
+
+}
+
+.contact {
+  text-align: center;
+}
+
+
+.contact ul {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact li {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-left: 0;
+}
+
+.contact a {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav h3 {
+  padding-left: 0px;
+    color: #383838;
+}
+
+}
