@@ -4,7 +4,7 @@ import Bio from './bio';
 
 export default function Intro(){
 	return(
-			<div className='home' id="home">
+			<div className='home' >
 				<TagLine />
 				<Bio />
 			</div>
