@@ -3,7 +3,7 @@ import React from 'react';
 export default function Contacts(){
 	return (
                 <div className="contact">
-                    <h2 className='heading' name="contact">Contact</h2>
+                    <h2 className='heading' id="contact">Contact</h2>
                     <hr />
                     <ul >
                         <a href="mailto:kathan.joey@gmail.com" target="_blank" rel="noopener noreferrer"><li><img src="https://i.imgur.com/wM05Dap.png" alt="email logo" className='contactImages'/></li></a>
