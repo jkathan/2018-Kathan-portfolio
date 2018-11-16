@@ -9,7 +9,7 @@ class Nav extends React.Component {
           <a href="#home"><h3>Home</h3></a>
           <a href="#projects"><h3>Projects</h3></a>
           <a href="#contact"><h3>Contact</h3></a>
-          <a href="Kathan_resume.pdf" target="_blank"><h3>Resume</h3></a>
+          <a href="%PUBLIC_URL%/Kathan_resume.pdf" target="_blank"><h3>Resume</h3></a>
         </div>
       </nav>
     )
