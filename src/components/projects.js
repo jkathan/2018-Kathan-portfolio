@@ -3,7 +3,7 @@ import ProjectDesc from './projectDescriptions';
 
 export default function Projects(){
 	return (
-		<div ref='projectList'>
+		<div name='projectList'>
 			<div>
 				<h2 className='heading' id='projects'>Projects</h2>
 				<hr />

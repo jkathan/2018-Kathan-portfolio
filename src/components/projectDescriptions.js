@@ -20,8 +20,8 @@ export default function ProjectDesc(props){
 				</div>
 				</div>
 				<div className='links'>
-					<a href={props.repo}><button className="button1">Github repo</button></a>  
-					<a href={props.live}><button className="button2">Live app</button></a>
+					<a href={props.repo} target="_blank" rel="noopener noreferrer"><button className="button1">Github repo</button></a>  
+					<a href={props.live} target="_blank" rel="noopener noreferrer"><button className="button2">Live app</button></a>
 				</div>
 			</div>
 		</div>
