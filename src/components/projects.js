@@ -16,7 +16,7 @@ export default function Projects(){
 					repo={'https://github.com/jkathan/borrowd'}
 					live={'https://mighty-tundra-94742.herokuapp.com/'} 
 				/>
-								<hr />
+				<hr />
 				<ProjectDesc
 					title={'BooKeep'}
 					img={'https://i.imgur.com/IRpghDV.png'} 

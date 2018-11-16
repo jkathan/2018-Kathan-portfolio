@@ -9,21 +9,20 @@ import Intro from './components/intro';
 class App extends Component {
   render() {
     return (
-      <div className="App container">
+      <div>
         <Nav />
-        <main className="App-main row">
-          <section className='intro clear'>
+        <main>
+          <section>
             <Intro />
           </section>
-          <section className='skills'>
+          <section >
             <Skills />
           </section>
-          <section className='projects'>
+          <section >
             <Projects />
           </section>
-        
           <Contacts />
-          </main>
+        </main>
       </div>
     );
   }
