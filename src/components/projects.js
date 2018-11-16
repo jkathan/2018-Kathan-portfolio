@@ -13,7 +13,7 @@ export default function Projects(){
 					alt={'Borrowd - a loaning app'}
 					description={'Born from my own forgetfulness, Borrowd lets you track items that you either loaned or borrowed, set the date you wanted to get reminded on, and get notified when that item is overdue. Built using React with and node.JS backend, Borrowd is a one stop shop for all things borrowed. Designed and in three weeks.'}
 					tech={'React/Redux, Node/Express/MongoDb, Passport'}
-					repo={'hhttps://github.com/jkathan/borrowd'}
+					repo={'https://github.com/jkathan/borrowd'}
 					live={'https://mighty-tundra-94742.herokuapp.com/'} 
 				/>
 								<hr />

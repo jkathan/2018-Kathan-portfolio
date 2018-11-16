@@ -4,7 +4,7 @@ export default function ProjectDesc(props){
 	return (
 		<div className='project row'>
 			<div className='webPhoto'>
-				<img src={props.img} alt={props.alt}/>
+				<a href={props.live} target="_blank" rel="noopener noreferrer"><img src={props.img} alt={props.alt}/></a>
 			</div>
 			<div className='projectContent'>
 				<div>
